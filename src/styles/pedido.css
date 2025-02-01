@@ -1,0 +1,144 @@
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--cor-branco-amarelado);
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 400px;
+    padding: 10px 20px;
+    background-color: var(--cor-verde);
+}
+
+.sidebar__navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.logo img{
+    height: auto;
+    width: 220px;
+}
+
+.sidebar__navigation__text p{
+    color: var(--cor-branco);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.comanda__container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+    height: 100px;
+    width: 100%;
+}
+
+.comanda__container h3{
+    color: var(--cor-branco-amarelado);
+}
+
+.comanda__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84px;
+    width: 100%;
+    background-color: var(--cor-branco);
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.text-comanda{
+    color: #929292;
+    font-weight: 500;
+}
+
+.total-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    margin-top: 20px;
+    height: 50px;
+    background-color: var(--cor-preto);
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+a{
+    color: var(--cor-branco-amarelado);
+    transition: .3s;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+
+.container__content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+}
+
+.title__container{
+    margin-bottom: 30px;
+}
+
+.btn-escolher{
+    height: 60px;
+    width: 194px;
+    background-color: var(--cor-verde);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 60px;
+    transition: .3s;
+}
+
+.btn-escolher:hover{
+    background-color: #208d63;
+}
+
+.cardapio__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 16px;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: var(--cor-branco);
+}
+
+.card__img{
+    height: auto;
+    width: 100px;
+}
+
+.preco{
+    font-weight: 600;
+}

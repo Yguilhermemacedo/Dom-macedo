@@ -1,0 +1,10 @@
+:root{
+    /* Fonte */
+    --fonte-quicksand:'Quicksand',sans-serif;
+
+    /* Cores */
+    --cor-verde:#1D7151;
+    --cor-branco-amarelado:#F9F7DC;
+    --cor-branco:#FFFFFF;
+    --cor-preto:#252525;
+}

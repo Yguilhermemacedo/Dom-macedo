@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Napoli</title>
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/vars.css">
+    <link rel="stylesheet" href="src/styles/pedido.css">
+    <link rel="shortcut icon" href="src/assets/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   
+
+
+    <main>
+         <!-- Sidebar lateral -->
+    <div class="sidebar">
+        <div class="sidebar__navigation">
+            <div class="logo">
+                <img src="src/assets/img/logo.png" alt="Logo da Dom Napoli">
+            </div>
+
+            <div class="sidebar__navigation__text">
+                <p>Ótimo <span class="nome-cliente"></span>, vamos começar seu pedido?</p>
+            </div>
+
+            <div class="comanda__container">
+                <h3>Pedidos</h3>
+                <div class="comanda__content">
+                    <p class="text-comanda">Comanda vazia</p>
+                    <div class="pedido">
+                        <img src="" alt="" class="pedido__img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="total-container">
+                <span class="total__title">Total</span>
+                <span class="total__valor"></span>
+            </div>
+
+        </div>
+        <div class="sidebar__button">
+            <a href="index.html">Sair</a>
+        </div>
+    </div>
+        <!-- Conteúdo principal -->
+        <div class="container__content">
+            <div class="title__container">
+                <h1>Abaixo está nosso cardápio confira:</h1>
+                <p>Escolha o sabor</p>
+            </div>
+            <div class="cardapio__container">
+                <!-- Card 1 - Pizza Calabresa -->
+                 <div class="card">
+                    <img src="src/assets/img/calabresa.png" alt="Pizza de Calabresa" class="card__img">
+                    <h3>Calabresa</h3>
+                    <span class="preco">R$45,00</span>
+                    <button class="btn-escolher">Escolher</button>
+                 </div>
+                 <!-- Card - Pizza Mussarela -->
+                 <div class="card">
+                    <img src="src/assets/img/mussarela.png" alt="Pizza de Mussarela" class="card__img">
+                    <h3>Mussarela</h3>
+                    <span class="preco">R$47,00</span>
+                    <button class="btn-escolher">Escolher</button>
+                 </div>
+                 <!-- Card - Pizza Peperoni -->
+                 <div class="card">
+                    <img src="src/assets/img/peperoni.png" alt="Pizza de Peperoni" class="card__img">
+                    <h3>Peperoni</h3>
+                    <span class="preco">R$49,00</span>
+                    <button class="btn-escolher">Escolher</button>
+                 </div>
+                 <!-- Card - Pizza Galinha Caipira -->
+                 <div class="card">
+                    <img src="src/assets/img/galinha-caipira.png" alt="Pizza de Galinha Caipira" class="card__img">
+                    <h3>Galinha Caipira</h3>
+                    <span class="preco">R$44,00</span>
+                    <button class="btn-escolher">Escolher</button>
+                 </div>
+            </div>
+        </div>
+    </main>
+    <script src="src/scripts/pedido.js"></script>
+</body>
+</html>

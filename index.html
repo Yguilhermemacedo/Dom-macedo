@@ -6,13 +6,38 @@
     <title>Dom Macedo Pizzaria</title>
     <link rel="stylesheet" href="src/styles/reset.css">
     <link rel="stylesheet" href="src/styles/vars.css">
+    <link rel="stylesheet" href="src/styles/style.css">
     <link rel="shortcut icon" href="src/assets/img/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
+    <main>
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="src/assets/img/logo-secundaria.png" alt="Logo da Dom Napoli Pizzaria">
+            </div>
+            <!-- Texto inicial -->
+            <div class="container__text">
+                <p>Olá seja bem vindo á Dom Napoli. Por favor informe seu nome e seu telefone:</p>
+            </div>
+            <!-- Input de nome -->
+            <div class="container__input">
+                <input type="text" name="nome" id="nome" placeholder="Seu nome" autocomplete="off" required>
+            </div>
+            <!-- Input de telefone -->
+            <div class="container__input">
+                <input type="text" name="telefone" id="tel" placeholder="Seu telefone" autocomplete="off" required>
+            </div>
+
+            <div class="container__button">
+                <button class="button">Continuar</button>
+            </div>
+        </div>
+    </main>
+    <script src="/src/scripts/cadastro.js"></script>
 </body>
 </html>
